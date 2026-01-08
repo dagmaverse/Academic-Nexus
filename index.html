@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Academic Nexus | Ethiopian Exam Preparation & Textbook Downloads
+    </title>
+    <meta
+      name="description"
+      content="Comprehensive Ethiopian exam preparation platform with free textbooks, past papers, and study materials for grades 9-12."
+    />
+    <meta
+      name="keywords"
+      content="Ethiopian exam, EUEE, grade 12, textbook download, past papers, study materials"
+    />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://cdn-icons-png.flaticon.com/512/2232/2232688.png"
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Font Awesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Your Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" data-aos="fade-down" data-aos-duration="800">
+      <div class="container nav-container">
+        <a href="#" class="logo">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/2232/2232688.png"
+            alt="Academic Nexus Logo"
+            class="logo-img"
+          />
+          <span>AcademicNexus</span>
+        </a>
+
+        <div class="nav-menu" id="navMenu">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#resources" class="nav-link">Resources</a>
+          <a href="#past-papers" class="nav-link">Past Papers</a>
+          <a href="#textbooks" class="nav-link">Textbooks</a>
+
+          <a href="#about" class="nav-link">About</a>
+        </div>
+
+        <div class="nav-actions">
+          <button class="btn btn-outline" id="themeToggle">
+            <i class="fas fa-moon"></i>
+          </button>
+          <button
+            class="mobile-toggle"
+            id="mobileToggle"
+            type="button"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="container hero-container">
+        <div class="hero-content" data-aos="fade-right" data-aos-duration="900">
+          <h1 class="hero-title">
+            Master Your
+            <span class="highlight">Ethiopian University Entrance Exam</span>
+          </h1>
+          <p class="hero-subtitle">
+            Access several past exam papers, free textbooks, and study materials
+            for grades 9-12. Everything you need to excel, completely free.
+          </p>
+
+          <div class="hero-stats">
+            <div class="stat" data-aos="fade-up" data-aos-delay="100">
+              <div class="stat-number">2,000+</div>
+              <div class="stat-label">Past Questions</div>
+            </div>
+            <div class="stat" data-aos="fade-up" data-aos-delay="200">
+              <div class="stat-number">50+</div>
+              <div class="stat-label">Textbooks</div>
+            </div>
+            <div class="stat" data-aos="fade-up" data-aos-delay="300">
+              <div class="stat-number">10+</div>
+              <div class="stat-label">Subjects</div>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a
+              href="#resources"
+              class="btn btn-primary btn-lg"
+              data-aos="zoom-in"
+              data-aos-delay="400"
+            >
+              <i class="fas fa-book-open"></i> Start Learning
+            </a>
+            <a
+              href="#textbooks"
+              class="btn btn-secondary btn-lg"
+              data-aos="zoom-in"
+              data-aos-delay="500"
+            >
+              <i class="fas fa-book"></i> Browse Textbooks
+            </a>
+          </div>
+
+          <div class="search-box" data-aos="fade-up" data-aos-delay="600">
+            <input
+              type="text"
+              placeholder="Search for textbooks, past papers, subjects..."
+              id="searchInput"
+            />
+            <button class="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-image" data-aos="fade-left" data-aos-duration="1000">
+          <div class="floating-card">
+            <img
+              src="https://images.unsplash.com/photo-1633114072836-15d933c6d3a7?q=80&w=1170&auto=format&fit=crop"
+              alt="Students studying together"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">
+          Everything You Need for Exam Success
+        </h2>
+        <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+          Comprehensive resources for Ethiopian students
+        </p>
+
+        <div class="features-grid">
+          <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="feature-icon">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+                alt="Past Papers"
+              />
+            </div>
+            <h3>Past Exam Papers</h3>
+            <p>Access EUEE questions from 2007-2025 with detailed solutions.</p>
+          </div>
+
+          <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="feature-icon">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/2702/2702069.png"
+                alt="Textbooks"
+              />
+            </div>
+            <h3>Free Textbooks</h3>
+            <p>Download official Ethiopian textbooks for grades 9-12 in PDF.</p>
+          </div>
+
+          <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="feature-icon">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/3135/3135756.png"
+                alt="Study Notes"
+              />
+            </div>
+            <h3>Study Notes</h3>
+            <p>Comprehensive notes and summaries for all subjects.</p>
+          </div>
+
+          <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="feature-icon">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/2942/2942936.png"
+                alt="Practice Tests"
+              />
+            </div>
+            <h3>Practice Tests</h3>
+            <p>Timed tests with automatic scoring and tracking.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section class="resources" id="resources">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Downloadable Resources</h2>
+        <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+          Free PDF downloads for all your study needs
+        </p>
+
+        <div class="filters-column">
+          <div class="filter-container" id="filterContainer"></div>
+
+          <div class="filter-buttons legacy" id="legacyFilterButtons">
+            <button class="filter-btn active" data-filter="all">
+              All Resources
+            </button>
+            <button class="filter-btn" data-filter="textbook">Textbooks</button>
+            <button class="filter-btn" data-filter="past-paper">
+              Past Papers
+            </button>
+            <button class="filter-btn" data-filter="notes">Study Notes</button>
+            <button class="filter-btn" data-filter="guide">Study Guides</button>
+          </div>
+        </div>
+
+        <div class="resources-grid" id="resourcesGrid">
+          <!-- Dynamically loaded -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Past Papers Section -->
+    <section class="past-papers" id="past-papers">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">
+          EUEE Past Papers by Year
+        </h2>
+        <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+          Organized by year and subject for easy access
+        </p>
+
+        <div class="year-filters">
+          <button class="year-btn active" data-year="all">All Years</button>
+          <!-- More added via JS -->
+        </div>
+
+        <div class="papers-grid" id="papersGrid">
+          <!-- Dynamically loaded -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Textbooks Section -->
+    <section class="textbooks" id="textbooks">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Textbooks by Grade</h2>
+        <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+          Official Ethiopian Ministry of Education textbooks
+        </p>
+
+        <div class="grades-tabs">
+          <button class="grade-tab active" data-grade="9">Grade 9</button>
+          <button class="grade-tab" data-grade="10">Grade 10</button>
+          <button class="grade-tab" data-grade="11">Grade 11</button>
+          <button class="grade-tab" data-grade="12">Grade 12</button>
+        </div>
+
+        <div class="textbooks-grid" id="textbooksGrid">
+          <!-- Textbooks loaded dynamically via JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">About Academic Nexus</h2>
+        <div class="about-content">
+          <div class="about-text" data-aos="fade-right" data-aos-duration="900">
+            <h3>Empowering Ethiopian Students</h3>
+            <p>
+              Academic Nexus is a comprehensive educational platform designed
+              specifically for Ethiopian students preparing for university
+              entrance exams and secondary school studies.
+            </p>
+            <p>
+              Our mission is to provide free, high-quality educational resources
+              to all students, regardless of background or location.
+            </p>
+
+            <div class="stats">
+              <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                <div class="stat-number">Past papers</div>
+                <div class="stat-label">Of the last 3-years</div>
+              </div>
+              <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="stat-number">Textbook</div>
+                <div class="stat-label">updated Monthly</div>
+              </div>
+              <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Free Resources</div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="about-image"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1651796704084-a115817945b2?q=80&w=1252&auto=format&fit=crop"
+              alt="Students learning together"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" data-aos="fade-up" data-aos-duration="900">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <a href="#" class="footer-logo">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/2232/2232688.png"
+                alt="Academic Nexus Logo"
+              />
+              <span>AcademicNexus</span>
+            </a>
+            <p>
+              Your complete exam preparation platform. Free resources for
+              Ethiopian students.
+            </p>
+          </div>
+
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <a href="#home">Home</a>
+            <a href="#resources">Resources</a>
+            <a href="#past-papers">Past Papers</a>
+            <a href="#textbooks">Textbooks</a>
+          </div>
+
+          <div class="footer-section">
+            <h4>Resources</h4>
+            <a href="#">Grade 9 Materials</a>
+            <a href="#">Grade 10 Materials</a>
+            <a href="#">Grade 11 Materials</a>
+            <a href="#">Grade 12 Materials</a>
+            <a href="#">EUEE Preparation</a>
+          </div>
+
+          <div class="footer-section">
+            <h4>Contact</h4>
+            <p><i class="fas fa-envelope"></i> dagmawizemenu@gmail.com</p>
+            <p><i class="fa-brands fa-twitter"></i> @dagmaverse</p>
+            <p><i class="fab fa-telegram"></i> @dagmaverse</p>
+            <p><i class="fas fa-phone"></i> +251 954 876 737</p>
+            <p><i class="fas fa-map-marker-alt"></i> Addis Ababa, Ethiopia</p>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2025 Academic Nexus. Developed By Dagmawi Zemenu. All rights
+            reserved.
+          </p>
+          <p>Free educational resources for Ethiopian students.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script type="module" src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </body>
+</html>
