@@ -1116,7 +1116,7 @@ class ExamPortal {
 
     const confirmed = await this.showConfirmDialog(
       `Download ${subject} Textbook?`,
-      `This will download the ${subject} textbook for Grade ${this.currentGrade}.``This will download the ${subject} textbook for Grade ${this.currentGrade}.`
+      `This will download the ${subject} textbook for Grade ${this.currentGrade}.`
     );
 
     if (!confirmed) return;
@@ -1539,3 +1539,4 @@ document.addEventListener("DOMContentLoaded", () => {
   // Create app instance
   window.examPortal = new ExamPortal();
 });
+
